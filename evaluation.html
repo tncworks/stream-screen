@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>審査中 | 生成AIハッカソン</title>
+    <link rel="stylesheet" href="styles/shared.css" />
+    <link rel="stylesheet" href="styles/evaluation.css" />
+  </head>
+  <body>
+    <div class="screen review-screen">
+      <div class="grid-overlay" aria-hidden="true"></div>
+      <div class="beam beam--left" aria-hidden="true"></div>
+      <div class="beam beam--right" aria-hidden="true"></div>
+      <div class="particles" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <main class="review-panel glass-panel">
+        <span class="badge">審査中</span>
+        <h1>審査員が評価を行っています</h1>
+        <p class="lead">
+          すべての発表が終了しました。結果発表まで今しばらくお待ちください。
+        </p>
+        <div class="status-cards" role="status" aria-live="polite">
+          <div class="status-card">
+            <span class="status-card__label">進捗</span>
+            <strong>得点を集計中</strong>
+            <span class="status-card__meta">各審査員のフィードバックをまとめています</span>
+          </div>
+          <div class="status-card">
+            <span class="status-card__label">ハイライト</span>
+            <strong>#GenerativeAIHackathon</strong>
+            <span class="status-card__meta">お気に入りのチームをSNSでシェアしよう</span>
+          </div>
+          <div class="status-card">
+            <span class="status-card__label">この後</span>
+            <strong>結果発表</strong>
+            <span class="status-card__meta">まもなくステージ上で受賞者を発表します</span>
+          </div>
+        </div>
+        <div class="countdown" aria-hidden="true">
+          <span class="countdown__pulse"></span>
+          <div class="countdown__text">
+            <strong>最終チェック中</strong>
+            <span>少々お時間をいただいております</span>
+          </div>
+        </div>
+        <p class="note">ドリンクを補充したり、気になったチームと交流しながらお待ちください。</p>
+      </main>
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker__track">
+          <span>Generative AI Hackathon</span>
+          <span>審査中</span>
+          <span>結果発表まで今しばらくお待ちください</span>
+          <span>全チームの発表が終了しました</span>
+          <span>Generative AI Hackathon</span>
+          <span>審査中</span>
+          <span>結果発表まで今しばらくお待ちください</span>
+          <span>全チームの発表が終了しました</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
